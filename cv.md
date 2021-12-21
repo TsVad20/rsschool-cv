@@ -1,18 +1,10 @@
 ![photo](img/my_photo.png 'My photo')
 
----
-
-<<<<<<< HEAD
-
 ### VADIM TSAREV (@TsVad20)
 
 ---
 
 #### Contacts
-
-=======
-
-> > > > > > > parent of 23174d5 (fix; fix mistake of title header)
 
 ![phone](img/phone_icon.png 'Phone') +48 665 197 038
 ![location](img/location_icon.png 'Location') ul. Skwierzynska 20a/15 53-522 Wroclaw
