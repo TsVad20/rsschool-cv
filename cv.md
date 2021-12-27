@@ -1,4 +1,4 @@
-![photo](img/my_photo.png 'My photo')
+![photo](assets/img/my_photo.png 'My photo')
 
 ### VADIM TSAREV (@TsVad20)
 
@@ -6,12 +6,12 @@
 
 #### Contacts
 
-![phone](img/phone_icon.png 'Phone') +48 665 197 038
-![location](img/location_icon.png 'Location') ul. Skwierzynska 20a/15 53-522 Wroclaw
+![phone](assets/img/phone_icon.png 'Phone') +48 665 197 038
+![location](assets/img/location_icon.png 'Location') ul. Skwierzynska 20a/15 53-522 Wroclaw
 
-![email](img/mail_icon.png 'Email') _tsvad48@gmail.com_
-![git](img/git_icon.png 'Git') https://github.com/TsVad20
-![linkedIn](img/linkedin_icon.png 'LinkedIn') https://www.linkedin.com/in/vadim-tsarev-b646a0226
+![email](assets/img/mail_icon.png 'Email') _tsvad48@gmail.com_
+![git](assets/img/git_icon.png 'Git') https://github.com/TsVad20
+![linkedIn](assets/img/linkedin_icon.png 'LinkedIn') https://www.linkedin.com/in/vadim-tsarev-b646a0226
 
 ---
 
@@ -65,25 +65,25 @@ Local market research and analysis (potential, trends, competitors, etc.)
 
 - HTML5, CSS, Javascript (ES6), Git
 
-![git](img/git_icon.png 'Git') https://github.com/TsVad20/device.github.io
+![git](assets/img/git_icon.png 'Git') https://github.com/TsVad20/device.github.io
 
 ##### JavaScript. Professional Development of Web Interfaces
 
 - HTML5, CSS, Javascript (ES6), Rest API, Eslint, Git
 
-![git](img/git_icon.png 'Git') https://github.com/TsVad20/JavaScript-LV1
+![git](assets/img/git_icon.png 'Git') https://github.com/TsVad20/JavaScript-LV1
 
 ##### Java Script. Architecture of Frontend Applications
 
 - HTML5, CSS, Javascript (ES6), OOP, SPA, Rest API, Eslint, Git, Webpack
 
-![git](img/git_icon.png 'Git') https://github.com/TsVad20/1789881-cinemaddict-15
+![git](assets/img/git_icon.png 'Git') https://github.com/TsVad20/1789881-cinemaddict-15
 
 ##### React. Development of Complex Frontend Applications.
 
 - HTML5, CSS, Typescript, React, Redux, Axios, Jest, Eslint, Git
 
-![git](img/git_icon.png 'Git') https://github.com/TsVad20/1789881-what-to-watch-8
+![git](assets/img/git_icon.png 'Git') https://github.com/TsVad20/1789881-what-to-watch-8
 
 ---
 
