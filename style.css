@@ -3,4 +3,19 @@
 }
 body {
   font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  margin: 0;
+  border: 1px solid red;
+}
+.main {
+  margin: 0;
+  border: 1px solid red;
+}
+.footer {
+  margin: 0;
+  border: 1px solid red;
 }
