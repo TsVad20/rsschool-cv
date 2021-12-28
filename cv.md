@@ -123,6 +123,4 @@ Moscow Power Engineering Institute (MPEI)
 
 #### Language
 
-###### 09/1997 – 06/2002
-
 ##### Russian (Native). English (B1). Polish (A1)
