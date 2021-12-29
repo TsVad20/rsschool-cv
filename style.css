@@ -86,7 +86,6 @@ body {
   line-height: 143px;
   font-weight: 500;
   letter-spacing: -1.5px;
-  outline: 2px solid orange;
   margin: 0;
   padding: 0;
 }
@@ -115,7 +114,6 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  /* border-bottom: 2px solid #bf6103; */
 }
 
 .title-border {
