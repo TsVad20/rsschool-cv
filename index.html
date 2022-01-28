@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="assets/img/my_photo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200;300&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link" id="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link" id="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link" id="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link" id="#code">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link" id="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link" id="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link" id="#education"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link" id="#languages"
+                >Languages</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-section">
+          <img
+            class="header-image"
+            src="./assets/img/my_photo_big.png"
+            alt="Photo"
+          />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="profile" id="profile">
+          <h1 class="profile-title">Vadim Tsarev</h1>
+          <p class="profile-content">
+            <span class="title-border">Junior Frontend Developer</span>
+          </p>
+        </section>
+        <div class="wrapper">
+          <section class="section" id="summary">
+            <h2 class="section-title">
+              <span class="title-border">Summary</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                I&nbsp;am 41&nbsp;years old. I&nbsp;wish to&nbsp;work
+                at&nbsp;the position of&nbsp;the Junior frontend developer.
+                I&nbsp;interested in&nbsp;a&nbsp;b2b projects. I&nbsp;good
+                organised and can say with confidence that&nbsp;I know the
+                basics of&nbsp;technologies and ready to&nbsp;improve
+                my&nbsp;knowledge, if&nbsp;required, at&nbsp;any time.
+                I&nbsp;prefer Full-time or&nbsp;partly remote job. Ready
+                to&nbsp;relocate. Permission to&nbsp;stay&nbsp;&mdash; work
+                visa.
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">
+              <span class="title-border">Contacts</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Phone: <a href="tel:+48665197038">+48 665 197 038</a><br />
+              </li>
+              <li class="section-item">
+                E-mail:
+                <a href="mailto:tsvad48@gmail.com">tsvad48@gmail.com</a>
+              </li>
+              <li class="section-item">
+                Location: Skwierzynska 20a/15 Wroclaw 53-522 Poland
+              </li>
+            </ul>
+          </section>
+
+          <section class="section section-skills" id="skills">
+            <h2 class="section-title">
+              <span class="title-border">Skills</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">Javascript (ES6)</li>
+              <li class="section-item">React (Redux)</li>
+              <li class="section-item">HTML5, CSS, SCSS, BEM</li>
+              <li class="section-item">Webpack, Git</li>
+              <li class="section-item">Figma, AI, Ps</li>
+              <li class="section-item">UI/UX</li>
+            </ul>
+          </section>
+          <section class="section section-code" id="code">
+            <h2 class="section-title">
+              <span class="title-border">Code</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <p class="item-title">Capitalization and Mutability</p>
+                <code class="item-snippet">
+                  const capitalizeWord = (word) => ([...word[0].toUpperCase(),
+                  ...word.slice(1, word.length)].join(''));
+                </code>
+              </li>
+              <li class="section-item">
+                <p class="item-title">Can we divide it?</p>
+                <code class="item-snippet">
+                  const isDivideBy = (number, a, b) => (!(number % a) ?
+                  (!(number % b) ? true : false) : false);
+                </code>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="courses">
+            <h2 class="section-title">
+              <span class="title-border">Courses</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <p class="item-date">Nov.&nbsp;2021 to&nbsp;present time</p>
+                <p class="item-title">&laquo;JavaScript/Front-end&raquo;</p>
+                <p class="item-content">The Rolling Scopes School</p>
+              </li>
+              <li class="section-item">
+                <p class="item-date">
+                  Sep.&nbsp;2021&nbsp;&mdash; Nov.&nbsp;2021
+                </p>
+                <p class="item-title">
+                  React. Development of&nbsp;Complex Frontend Applications
+                </p>
+                <p class="item-content">HTML-academy</p>
+              </li>
+              <li class="section-item">
+                <p class="item-date">
+                  Jul.&nbsp;2021&nbsp;&mdash; Sep.&nbsp;2021
+                </p>
+                <p class="item-title">
+                  Java Script. Architecture of&nbsp;Frontend Applications
+                </p>
+                <p class="item-content">HTML-academy</p>
+              </li>
+              <li class="section-item">
+                <p class="item-date">May 2021- Jul.&nbsp;2021</p>
+                <p class="item-title">
+                  JavaScript. Professional Development of&nbsp;Web Interfaces
+                </p>
+                <p class="item-content">HTML-academy</p>
+              </li>
+              <li class="section-item">
+                <p class="item-date">Dec.&nbsp;2020&nbsp;&mdash; May 2021</p>
+                <p class="item-title">
+                  HTML&nbsp;&amp; CSS Adaptive Website Coding and automation.
+                </p>
+                <p class="item-content">HTML-academy</p>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="projects">
+            <h2 class="section-title">
+              <span class="title-border">Projects</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <p class="item-title">
+                  HTML&nbsp;&amp; CSS Adaptive Website Coding and automation.
+                </p>
+                <p class="item-content">HTML5, CSS, Javascript (ES6), Git</p>
+                <a
+                  class="item-link"
+                  href="https://github.com/TsVad20/device.github.io"
+                  >https://github.com/TsVad20/device.github.io</a
+                >
+              </li>
+              <li class="section-item">
+                <p class="item-title">
+                  JavaScript. Professional Development of&nbsp;Web Interfaces
+                </p>
+                <p class="item-content">
+                  HTML5, CSS, Javascript (ES6), Rest API, Eslint, Git
+                </p>
+                <a
+                  class="item-link"
+                  href="https://github.com/TsVad20/JavaScript-LV1"
+                  >https://github.com/TsVad20/JavaScript-LV1</a
+                >
+              </li>
+              <li class="section-item">
+                <p class="item-title">
+                  Java Script. Architecture of&nbsp;Frontend Applications.
+                </p>
+                <p class="item-content">
+                  HTML5, CSS, Javascript (ES6), OOP, SPA, Rest API, Eslint, Git,
+                  Webpack
+                </p>
+                <a
+                  class="item-link"
+                  href="https://github.com/TsVad20/1789881-cinemaddict-15"
+                  >https://github.com/TsVad20/1789881-cinemaddict-15</a
+                >
+              </li>
+              <li class="section-item">
+                <p class="item-title">
+                  React. Development of&nbsp;Complex Frontend Applications.
+                </p>
+                <p class="item-content">
+                  HTML5, CSS, Typescript, React, Redux, Axios, Jest, Eslint, Git
+                </p>
+                <a
+                  class="item-link"
+                  href="https://github.com/TsVad20/1789881-what-to-watch-8"
+                  >https://github.com/TsVad20/1789881-what-to-watch-8</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title">
+              <span class="title-border">Education</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <p class="item-date">Sep.&nbsp;1997&nbsp;&mdash; Jun 2002</p>
+                <p class="item-title">Specialty: Radio engineering</p>
+                <p class="item-content">
+                  Moscow Power Engineering Institute (MPEI)
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">
+              <span class="title-border">Languages</span>
+            </h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <p class="item-title">Russian</p>
+                <p class="item-content">Native</p>
+              </li>
+              <li class="section-item">
+                <p class="item-title">English</p>
+                <p class="item-content">B1</p>
+              </li>
+              <li class="section-item">
+                <p class="item-title">Polish</p>
+                <p class="item-content">A1</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <p class="footer-content">&copy;&nbsp;2021</p>
+        <p class="footer-content">
+          <a class="footer-link" href="https://github.com/TsVad20">@TsVad20</a>
+        </p>
+        <p class="footer-content">
+          <a href="https://rs.school/js/"
+            ><img
+              class="rss-logo"
+              src="./assets/img/logo-rsschool.png"
+              alt="rss-logo"
+          /></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
